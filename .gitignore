@@ -1,0 +1,46 @@
+# Build artifacts
+bin/
+obj/
+
+# User-specific files
+.vscode/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.ide
+
+# Logs and debugging
+*.log
+*.tlog
+
+# Configuration and secrets
+appsettings*.json
+secrets.json
+.env
+
+# NuGet dependencies
+packages/
+*.nupkg
+
+# Rider and JetBrains IDEs
+.idea/
+*.iml
+
+# Visual Studio Code workspace
+.vscode/
+
+# ASP.NET temporary files
+**/.vs/**
+**/.vscode/**
+
+# Publish outputs
+wwwroot/dist/
+wwwroot/node_modules/
+
+# Entity Framework migrations
+Migrations/
+
+# Docker and containerization
+*.dockerfile
+**/docker-compose*
